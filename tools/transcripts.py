@@ -1,7 +1,7 @@
 """Build the per-lecture transcripts and the video table.
 
 Inputs (SOURCES below): materials/<csv>   n, kind, youtube, fautv, title, duration, lecturer (from the SOURCES inventory)
-  materials/transcripts/raw/CCC-<id>.<lang>-orig.json3   YouTube auto-captions (CCC = chapter number), or
+  materials/transcripts/raw/ or ../lecture-notes-schuller-courses/materials/raw/C4/ CCC-<id>.<lang>-orig.json3 (or .<lang>.json3)   YouTube auto-captions (CCC = chapter number), or
   materials/transcripts/raw/CCC-<id>.whisper.txt         local faster-whisper output ('seconds<TAB>text')
 Outputs:
   materials/transcripts/CXX-VYY.txt             one line per ~20 s, '[m:ss] text' (C = chapter number, V = video in the chapter)
@@ -16,6 +16,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 MAT = ROOT / 'materials'
 LINE_SECONDS = 20
+# own downloads first, then the shared download of the inventory repo (lecture-notes-schuller-courses, C4 = Mechanik)
+RAWS = [MAT / 'transcripts/raw', ROOT.parent / 'lecture-notes-schuller-courses/materials/raw/C4']
 # (csv in materials/, chapter offset, caption language)
 SOURCES = [('videos.csv', 0, 'de')]
 
@@ -73,12 +75,19 @@ for ch, v, lang, r in rows:
     vid = r['youtube']
     if not vid:
         continue
-    raw = MAT / 'transcripts/raw'
-    src = next(iter(sorted(raw.glob(f'{ch:03d}-{vid}.{lang}-orig.json3'))), None)
-    words = words_json3(src) if src else None
-    if not src:
-        src = next(iter(raw.glob(f'{ch:03d}-{vid}.whisper.txt')), None)
-        words = words_whisper(src) if src else None
+    src = words = None
+    for raw in RAWS:
+        for pat in (f'{ch:03d}-{vid}.{lang}-orig.json3', f'{ch:03d}-{vid}.{lang}.json3'):
+            src = next(iter(sorted(raw.glob(pat))), None)
+            if src:
+                words = words_json3(src)
+                break
+        if not src:
+            src = next(iter(raw.glob(f'{ch:03d}-{vid}.whisper.txt')), None)
+            if src:
+                words = words_whisper(src)
+        if src:
+            break
     if not src:
         continue
     out = MAT / f'transcripts/C{ch:02d}-V{v:02d}.txt'
