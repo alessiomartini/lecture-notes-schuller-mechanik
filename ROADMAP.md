@@ -14,7 +14,7 @@
 - [x] Ch06 L06 Connection fields (Zusammenhangsfelder)
 - [x] Ch07 L07 The powdery, creased, smooth, round sphere
 - [x] Ch08 L08 Newtonian kinematics
-- [ ] Ch09 L09 Absolute space: a very useful inertial-system fiction
+- [x] Ch09 L09 Absolute space: a very useful inertial-system fiction
 - [ ] Ch10 L10 Newtonian dynamics
 - [ ] Ch11 L11 Newtonian gravitational interaction
 - [ ] Ch12 L12 The two-body problem
@@ -42,5 +42,5 @@
 ## Decisioni e cose provate
 
 ## Log
-- 2026-11-22: transcripts.py reads the shared captions (lecture-notes-schuller-courses, C4); chapters 1-7 written (Bird's-eye view, Topological manifolds, Differentiable manifolds, Tangent spaces, Tensors and tensor fields, Connection fields, The powdery/creased/smooth/round sphere, Newtonian kinematics); ch01 history boxes reduced to "as said in class (not checked)" (written from the German captions, in English).
+- 2026-11-22: transcripts.py reads the shared captions (lecture-notes-schuller-courses, C4); chapters 1-7 written (Bird's-eye view, Topological manifolds, Differentiable manifolds, Tangent spaces, Tensors and tensor fields, Connection fields, The powdery/creased/smooth/round sphere, Newtonian kinematics, Absolute space); ch01 history boxes reduced to "as said in class (not checked)" (written from the German captions, in English).
 - 2026-11-21: repo creato
