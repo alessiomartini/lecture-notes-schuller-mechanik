@@ -17,8 +17,8 @@
 - [x] Ch09 L09 Absolute space: a very useful inertial-system fiction
 - [x] Ch10 L10 Newtonian dynamics
 - [x] Ch11 L11 Newtonian gravitational interaction
-- [ ] Ch12 L12 The two-body problem
-- [ ] Ch13 L13 Lagrangians and action functionals
+- [x] Ch12 L12 The two-body problem
+- [x] Ch13 L13 Lagrangians and action functionals
 - [ ] Ch14 L14 Calculus of variations and the Lagrangian of a particle
 - [ ] Ch15 L15 Several particles
 - [ ] Ch16 L16 Constraints on configurations
@@ -42,5 +42,5 @@
 ## Decisioni e cose provate
 
 ## Log
-- 2026-11-22: transcripts.py reads the shared captions (lecture-notes-schuller-courses, C4); chapters 1-11 written (Bird's-eye view, Topological manifolds, Differentiable manifolds, Tangent spaces, Tensors and tensor fields, Connection fields, The powdery/creased/smooth/round sphere, Newtonian kinematics, Absolute space, Newtonian dynamics, Newtonian gravitational interaction); ch01 history boxes reduced to "as said in class (not checked)" (written from the German captions, in English).
+- 2026-11-22: chapters 12-13 written (two-body problem; Lagrangians and action functionals); transcripts.py reads the shared captions (lecture-notes-schuller-courses, C4); chapters 1-11 written (Bird's-eye view, Topological manifolds, Differentiable manifolds, Tangent spaces, Tensors and tensor fields, Connection fields, The powdery/creased/smooth/round sphere, Newtonian kinematics, Absolute space, Newtonian dynamics, Newtonian gravitational interaction); ch01 history boxes reduced to "as said in class (not checked)" (written from the German captions, in English).
 - 2026-11-21: repo creato
