@@ -23,8 +23,8 @@
 - [x] Ch15 L15 Several particles
 - [x] Ch16 L16 Constraints on configurations
 - [x] Ch17 L17 Practical calculation of prototypical systems
-- [ ] Ch18 L18 Legendre transformation
-- [ ] Ch19 L19 Hamilton's equations
+- [x] Ch18 L18 Legendre transformation
+- [x] Ch19 L19 Hamilton's equations
 - [ ] Ch20 L20 Flows in phase space
 - [ ] Ch21 L21 Symmetries and conserved quantities
 - [ ] Ch22 L22 General relativity: kinematics
@@ -42,5 +42,5 @@
 ## Decisioni e cose provate
 
 ## Log
-- 2026-11-22: chapters 16-17 written (constraints on configurations, push-forward, Lagrangian with constraints; five-step algorithm with pendulum and double pendulum, EL equations of the double pendulum recomputed and added as 'not said in class'); chapters 14-15 written (calculus of variations, Euler-Lagrange equations, Lagrangian of a particle; several particles, configuration space); fixed the mangled \frac in ch12 that broke the build; chapters 12-13 written (two-body problem; Lagrangians and action functionals); transcripts.py reads the shared captions (lecture-notes-schuller-courses, C4); chapters 1-11 written (Bird's-eye view, Topological manifolds, Differentiable manifolds, Tangent spaces, Tensors and tensor fields, Connection fields, The powdery/creased/smooth/round sphere, Newtonian kinematics, Absolute space, Newtonian dynamics, Newtonian gravitational interaction); ch01 history boxes reduced to "as said in class (not checked)" (written from the German captions, in English).
+- 2026-11-22: chapters 18-19 written (Legendre transformation: envelope picture, three-step definition, involution theorem, several variables, Hamilton function in a chart; Hamilton's equations: cotangent bundle and its atlas, musical isomorphism, regular Lagrangians, Hamilton function, lift of curves, derivation of Hamilton's equations from Euler-Lagrange; the Legendre portrait anecdote is marked not checked; the converse of the theorem is noted as not discussed in class); chapters 16-17 written (constraints on configurations, push-forward, Lagrangian with constraints; five-step algorithm with pendulum and double pendulum, EL equations of the double pendulum recomputed and added as 'not said in class'); chapters 14-15 written (calculus of variations, Euler-Lagrange equations, Lagrangian of a particle; several particles, configuration space); fixed the mangled \frac in ch12 that broke the build; chapters 12-13 written (two-body problem; Lagrangians and action functionals); transcripts.py reads the shared captions (lecture-notes-schuller-courses, C4); chapters 1-11 written (Bird's-eye view, Topological manifolds, Differentiable manifolds, Tangent spaces, Tensors and tensor fields, Connection fields, The powdery/creased/smooth/round sphere, Newtonian kinematics, Absolute space, Newtonian dynamics, Newtonian gravitational interaction); ch01 history boxes reduced to "as said in class (not checked)" (written from the German captions, in English).
 - 2026-11-21: repo creato
