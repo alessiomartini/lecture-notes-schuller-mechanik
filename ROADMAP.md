@@ -22,7 +22,7 @@
 - [x] Ch14 L14 Calculus of variations and the Lagrangian of a particle
 - [x] Ch15 L15 Several particles
 - [x] Ch16 L16 Constraints on configurations
-- [ ] Ch17 L17 Practical calculation of prototypical systems
+- [x] Ch17 L17 Practical calculation of prototypical systems
 - [ ] Ch18 L18 Legendre transformation
 - [ ] Ch19 L19 Hamilton's equations
 - [ ] Ch20 L20 Flows in phase space
@@ -42,5 +42,5 @@
 ## Decisioni e cose provate
 
 ## Log
-- 2026-11-22: chapter 16 written (constraints on configurations, push-forward, Lagrangian with constraints); chapters 14-15 written (calculus of variations, Euler-Lagrange equations, Lagrangian of a particle; several particles, configuration space); fixed the mangled \frac in ch12 that broke the build; chapters 12-13 written (two-body problem; Lagrangians and action functionals); transcripts.py reads the shared captions (lecture-notes-schuller-courses, C4); chapters 1-11 written (Bird's-eye view, Topological manifolds, Differentiable manifolds, Tangent spaces, Tensors and tensor fields, Connection fields, The powdery/creased/smooth/round sphere, Newtonian kinematics, Absolute space, Newtonian dynamics, Newtonian gravitational interaction); ch01 history boxes reduced to "as said in class (not checked)" (written from the German captions, in English).
+- 2026-11-22: chapters 16-17 written (constraints on configurations, push-forward, Lagrangian with constraints; five-step algorithm with pendulum and double pendulum, EL equations of the double pendulum recomputed and added as 'not said in class'); chapters 14-15 written (calculus of variations, Euler-Lagrange equations, Lagrangian of a particle; several particles, configuration space); fixed the mangled \frac in ch12 that broke the build; chapters 12-13 written (two-body problem; Lagrangians and action functionals); transcripts.py reads the shared captions (lecture-notes-schuller-courses, C4); chapters 1-11 written (Bird's-eye view, Topological manifolds, Differentiable manifolds, Tangent spaces, Tensors and tensor fields, Connection fields, The powdery/creased/smooth/round sphere, Newtonian kinematics, Absolute space, Newtonian dynamics, Newtonian gravitational interaction); ch01 history boxes reduced to "as said in class (not checked)" (written from the German captions, in English).
 - 2026-11-21: repo creato
