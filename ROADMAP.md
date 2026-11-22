@@ -7,10 +7,10 @@
 
 ## Parte I: TP-1 Mechanik (ch. 1-23)
 - [x] Ch01 L01 Bird's-eye view
-- [ ] Ch02 L02 Topological manifolds
-- [ ] Ch03 L03 Differentiable manifolds
-- [ ] Ch04 L04 Tangent spaces
-- [ ] Ch05 L05 Tensors and tensor fields
+- [x] Ch02 L02 Topological manifolds
+- [x] Ch03 L03 Differentiable manifolds
+- [x] Ch04 L04 Tangent spaces
+- [x] Ch05 L05 Tensors and tensor fields
 - [ ] Ch06 L06 Connection fields (Zusammenhangsfelder)
 - [ ] Ch07 L07 The powdery, creased, smooth, round sphere
 - [ ] Ch08 L08 Newtonian kinematics
@@ -42,5 +42,5 @@
 ## Decisioni e cose provate
 
 ## Log
-- 2026-11-22: transcripts.py reads the shared captions (lecture-notes-schuller-courses, C4); chapters written from the German captions, in English.
+- 2026-11-22: transcripts.py reads the shared captions (lecture-notes-schuller-courses, C4); chapters 1-5 written (Bird's-eye view, Topological manifolds, Differentiable manifolds, Tangent spaces, Tensors and tensor fields) from the German captions, in English.
 - 2026-11-21: repo creato
