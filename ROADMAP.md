@@ -2,11 +2,11 @@
 
 ## Setup
 - [x] Repo skeleton (preamble, build, transcripts tool, empty main.tex)
-- [ ] Download captions / audio, run `tools/transcripts.py`
+- [x] Download captions / audio, run `tools/transcripts.py`
 - [ ] Pilot: first chapter written and compiled
 
 ## Parte I: TP-1 Mechanik (ch. 1-23)
-- [ ] Ch01 L01 Bird's-eye view
+- [x] Ch01 L01 Bird's-eye view
 - [ ] Ch02 L02 Topological manifolds
 - [ ] Ch03 L03 Differentiable manifolds
 - [ ] Ch04 L04 Tangent spaces
@@ -42,4 +42,5 @@
 ## Decisioni e cose provate
 
 ## Log
+- 2026-11-22: transcripts.py reads the shared captions (lecture-notes-schuller-courses, C4); chapters written from the German captions, in English.
 - 2026-11-21: repo creato
