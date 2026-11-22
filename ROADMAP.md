@@ -42,5 +42,5 @@
 ## Decisioni e cose provate
 
 ## Log
-- 2026-11-22: transcripts.py reads the shared captions (lecture-notes-schuller-courses, C4); chapters 1-7 written (Bird's-eye view, Topological manifolds, Differentiable manifolds, Tangent spaces, Tensors and tensor fields, Connection fields, The powdery/creased/smooth/round sphere, Newtonian kinematics, Absolute space); ch01 history boxes reduced to "as said in class (not checked)" (written from the German captions, in English).
+- 2026-11-22: transcripts.py reads the shared captions (lecture-notes-schuller-courses, C4); chapters 1-9 written (Bird's-eye view, Topological manifolds, Differentiable manifolds, Tangent spaces, Tensors and tensor fields, Connection fields, The powdery/creased/smooth/round sphere, Newtonian kinematics, Absolute space); ch01 history boxes reduced to "as said in class (not checked)" (written from the German captions, in English).
 - 2026-11-21: repo creato
